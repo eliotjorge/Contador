@@ -1,7 +1,7 @@
 <?php
 // Read the file contents into a string variable,
 // and parse the string into a data structure
-$str_data = file_get_contents("https://www.sumersol.com/contadorDioxi/dato.json");
+$str_data = file_get_contents("https://www.sumr.com/contadorDioxi/dato.json");
 $data = json_decode($str_data,true);
 
 $numero = $data["dato"]["co2"];
