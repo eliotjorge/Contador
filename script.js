@@ -1,7 +1,7 @@
  var elemento = document.getElementById("numero");
 	
 	let request = new XMLHttpRequest();
-	request.open('GET', 'https://www.sumersol.com/contadorDioxi/dato.json', true);
+	request.open('GET', 'https://www.sumr.com/contadorDioxi/dato.json', true);
   	request.onload = function () {
       	let dato = JSON.parse(this.response);
 		var numero = dato["dato"]["co2"];
