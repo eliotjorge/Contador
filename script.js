@@ -8,7 +8,7 @@
 		elemento.innerHTML = formatNumber.new(numero);
 		setInterval(function(){
 			numero += 0.027;
-			elemento.innerHTML = formatNumber.new(numero.toFixed(2));
+			elemento.innerHTML = formatNumber.new(numero.toFixed(2)); /*Con toFixed(2) hacemos que solo muestre 2 decimales*/
 		},1000);
     
     }
