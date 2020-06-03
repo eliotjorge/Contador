@@ -2,9 +2,9 @@
 // Read the file contents into a string variable,
 // and parse the string into a data structure
 
-//$str_data = file_get_contents("https://www.sumersol.com/contadorDioxi/dato.json");
+//$str_data = file_get_contents("https://www.smrl.com/contadorDioxi/dato.json");
 
-$url = "https://www.sumersol.com/contadorDioxi/dato.json";
+$url = "https://www.smrl.com/contadorDioxi/dato.json";
 $ctx = stream_context_create(array('http' => array('timeout' => 5))); //Con este metodo "stream_context_create()"
 //hacemos que la llamada a la URL se haga a traves de HTTP y no HTTPS que es lo que estaba dando el error "file_get_contents(): SSL: Handshake timed out"
 //tambien le especificamos que haya un timeout de 5s.
