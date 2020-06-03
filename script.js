@@ -14,7 +14,7 @@
     }
     request.send();
 
-
+/*Formatear numero con js*/
 var formatNumber = {
   separador: ".", // separador para los miles
   sepDecimal: ",", // separador para los decimales
